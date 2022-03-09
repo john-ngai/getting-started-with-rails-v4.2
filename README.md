@@ -4,7 +4,7 @@ https://guides.rubyonrails.org/v4.2/getting_started.html
 
 My notes while following along on this guide.
 
-## # Amendments / Tips
+## Amendments / Tips
 
 * When using the `rails new` command, the step where it runs `bundle install` for you automatically will take some time to complete. It may appear to be hung for some time (about 1 to 5 minutes). If so, go stretch, do a plank, or get coffee/tea while you wait.
 * Immediately after creating the blog project with `rails new`, open the `Gemfile` in VS Code and update the line `gem 'sqlite3'` to `gem 'sqlite3', '1.3.13'`. Save the file and run `bundle` in the project directory. It should say something like `Fetching sqlite3 1.3.13 (was 1.4.1)`. If you do not follow this step, the app will complain that it cannot load/find the sqlite3 gem.
